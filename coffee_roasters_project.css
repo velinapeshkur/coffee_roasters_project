@@ -1,0 +1,49 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.navbar{
+    font-size: 1.3em;
+}
+
+#brandName{
+    font-size: 3.5em;
+    text-align: center;
+    font-family: 'IM Fell DW Pica', serif;
+}
+
+.mainPageIMG{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coffeeName{
+    text-align: left;
+}
+
+.logInJumbotron{
+    background-image: url(https://1.bp.blogspot.com/-eIbTELBGuo4/XYCTclBIkmI/AAAAAAAAAcY/coacobirs6kk-93U3MMGUQljC-C2Bm-aACLcBGAsYHQ/s1600/HOW%2BMUCH%2BCAFFEINE%2BIN%2BDIET%2BCOKE.jpg);
+    background-size: cover;
+}
+
+#submitButton{
+    background-color: #4f3025;
+    width: 90px;
+    height: 45px;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #F1FAEE;
+    cursor: pointer;
+    text-align: center;
+}
+
+#copyrightLink{
+    color: #6e777f;
+    text-decoration: none;
+}
+
+#Events{
+    text-align: center;
+}
+
