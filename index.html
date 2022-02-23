@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specialty Coffee Roasters</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="coffee_roasters_project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  </head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="main_page.html">
+              <img src="https://cdn.shopify.com/s/files/1/0021/8909/9077/files/Web1-01_500x.png?v=1604947196" width="100" height="60" class="d-inline-block"></a>
+
+            <!-- Hamburger icon -->
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <!-- Anything inside collapse goes into the hamburger icon -->
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+                <li class="nav-item">
+                    <a class="nav-link active" href="main_page.html">Home</a>
+                </li>
+            
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Our Coffees
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="coffees/peru_tapir.html">
+                        <img src="https://cdn.shopify.com/s/files/1/0021/8909/9077/products/PERU-TAPIR_1296x.jpg?v=1644827584" width="35" height="35">
+                        Peru Tapir Andino</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="coffees/tropical_bahia.html">
+                        <img src="https://cdn.shopify.com/s/files/1/0021/8909/9077/products/Brazil-Bahia_1296x.jpg?v=1626272998" width="35" height="35">
+                        Tropical Bahia</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="coffees/classical_house_roast.html">
+                        <img src="https://cdn.shopify.com/s/files/1/0021/8909/9077/products/HOUSE-ROAST_1296x.jpg?v=1606682247" width="35" height="35">
+                        Classical House Roast</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="log_in.html">Log in
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                      <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                    </svg></a>
+                </li>
+              </ul>
+
+          </div>
+        </div>
+      </nav>
+
+    <!-- Company Description and Images -->
+
+    <div class="px-3 mt-5 mb-4 m-auto col-md-6">
+      <div class="my-5">
+        <h1 id="brandName" class="my-5">UE COFFEE ROASTERS</h1>
+        <img class="img-fluid mainPageIMG" src="https://i.shgcdn.com/f35e17f0-3581-479b-8d8b-c780b958076a/-/format/auto/-/preview/3000x3000/-/quality/lighter/">
+
+        <h1 class="display-5 mt-5">About Us</h1>
+
+        <p>We are an independently owned and family run business, forever curious and ready to transform the way coffee is served.</p>
+        <p>Established by Dominic and Daniella Boyett in 2009, the mission was to offer great coffee whilst making it accessible to everyone. We have dedicated the last decade and more to learning, working hard, and building more than just another coffee brand. Ue Coffee Roasters is more than the sum of its parts, we have learned that it takes a team with passion and determination in the pursuit of excellence to make a company great.</p>
+        <p class="fw-bold">Let’s put it down to experience</p>
+        <p>Whether it is the experience had by the customers, in our own retail stores through to our wholesale partners, or the that of our team. Experience is something we cherish and harness to be the best we can be. It takes time and considerable training to learn how to get the best from coffee, to understand the roasting process, the science and to be able to offer first-rate support to our customers.</p>
+
+        <img class="img-fluid my-4 mainPageIMG" src="https://i.shgcdn.com/956440c8-3ef7-424c-9b48-b3086e667a5e/-/format/auto/-/preview/3000x3000/-/quality/lighter/">
+        <p class="fw-bold">Cogs in a well-oiled machine</p>
+        <p>We believe our people are far from cogs. We cultivate talent and place importance in honing the skills and craft in each member of our team. This helps serve both our customers and trade partners and shows in everything we produce through to our values.</p>
+        <p class="fw-bold">What is in the box!?</p>
+        <p>It is more than great speciality coffee, after all we are too busy thinking far outside the usual constraints.</p>
+        <p>A great deal of work is involved in sourcing speciality grade and experimental micro-lot coffees and ensuring that we buy both ethically and sustainably from growers with direct longstanding trading relationships.</p>
+        <p>It is our responsibility to honour the hard work already invested in the coffee by roasting it to showcase its distinctive qualities. Roasting is one of the most delicate and critical parts of the process that leads to a great cup of coffee. We want to ensure that we focus on showcasing what makes a particular variety, origin or farm so thrilling.</p>
+  
+      </div>
+    </div>
+
+  <!-- Events -->
+
+  <div class="container-fluid px-2 bg-dark text-white">
+    <h2 class="display-5 py-5" id="Events">Events</h2>
+    <div class="row pb-5">
+
+      <div class="col-lg-3 col-md-6 col-s-8">
+        <div class="mb-4 bg-light rounded-3 text-black">
+          <img class="img-thumbnail img-fluid" src="https://ucarecdn.com/67a2a5dd-3c1a-4c47-bec6-f090c2ba1c0b/-/crop/2088x2090/324,0/-/preview/-/resize/600/">
+          <div class="m-3 py-2">
+            <h4>Roastery Mothering Sunday Afternoon Tea</h4>
+            <p class="fw-light">A special treat for all mums on Mothers Day. Indulge in a slice of the finest British tradition and enjoy afternoon tea at the Roastery. As well as your favourite Ue coffees brewed by our skilled and talented baristas, you can also select from our extensive range of Jeeves & Jericho loose leaf teas.            </p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+              <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg>
+            Ue Coffee Roasters Roastery Cafe</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+              <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+            </svg>
+            27th Mar | 14:30 - 16:30</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 col-s-8">
+        <div class="mb-4 bg-light rounded-3 text-black">
+          <img class="img-thumbnail img-fluid" src="https://ucarecdn.com/51b1ab85-56fc-4f3c-95b1-09351f217bfa/-/crop/3517x3515/0,1350/-/preview/-/resize/600/">
+          <div class="m-3 py-2">
+            <h4>Sunday Sharing Roast at The Roastery</h4>
+            <p class="fw-light">A sharing platter ofthe following meats; Roast Kelmscott pork joint and crackling along with topside of beef. Served with Yorkshire puddings, roast potatoes, glazed carrots, honey roast parsnips, tenderstem broccoli and endless gravy boat.</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+              <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg>
+            Ue Coffee Roasters Roastery Cafe</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+              <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+            </svg>
+            24th Apr | 14:30 - 16:30</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 col-s-8">
+        <div class="mb-4 bg-light rounded-3 text-black">
+          <img class="img-thumbnail img-fluid" src="https://ucarecdn.com/c84b0f5e-547b-49da-b298-3b5198a5235e/-/crop/894x895/0,384/-/preview/-/resize/600/">
+          <div class="m-3 py-2">
+            <h4>A Plant Based Friday Night With Live Music at The Roastery</h4>
+            <p class="fw-light">Gather your friends and enjoy a very special pop-up event in a unique setting on our roastery floor, where our chefs have created a plant based inspired sharing board accompanied with wine and an evening of live music.</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+              <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg>
+            Ue Coffee Roasters Roastery Cafe</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+              <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+            </svg>
+            20th May | 19:00 - 23:00</p>
+          </div>
+        </div>      
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 col-s-8">
+        <div class="mb-4 bg-light rounded-3 text-black">
+          <img class="img-thumbnail img-fluid" src="https://ucarecdn.com/0fbb6574-12e5-4521-8664-f86834c9c6e9/-/crop/2322x2323/849,0/-/preview/-/resize/600/">
+          <div class="m-3 py-2">
+            <h4>Fathers Day Pit Barbeque at The Roastery</h4>
+            <p class="fw-light">Bring dad for some traditional pit barbecue on our roastery terrace with live music this fathers day. The whole family can enjoy the best of low and slow barbeque prepared by our very own chefs.</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+              <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg>
+            Ue Coffee Roasters Roastery Cafe</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+              <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+            </svg>
+            19th Jun | 12:30 - 14:30</p>
+          </div>
+        </div>      
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      <p class="text-center text-muted">2022, Source: <a href="https://uecoffeeroasters.com/" id="copyrightLink">uecoffeeroasters.com</a></p>
+    </footer>
+  </div>
+
+  <!-- JQuery and Javascript -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+   
+</body>
+</html>
